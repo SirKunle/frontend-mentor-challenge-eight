@@ -1,3 +1,44 @@
+body{
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 150vh; 
+
+}
+.main-container{
+    height: 150px;
+    width: 450px;
+    padding: 200px 180px;
+    background-color: hsl(0, 0%, 100%);  
+    text-align: center;
+}
+.container-one{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    width: 70px;
+    height: 35px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.container-two{
+    display: flex;
+    align-items: center; /* Centers items horizontally */
+}
+hr {
+    width: 100%; /* Ensures it stretches horizontally */
+    border: none;
+    border-top: 1px solid hsl(0, 0%, 8%); /* Adjust thickness and color */
+    margin: 10px ; /* Adds spacing */
+}
 button{
-    background-color: blueviolet;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+}
+#years, #months, #days{
+    color: hsl(259, 100%, 65%);
 }
