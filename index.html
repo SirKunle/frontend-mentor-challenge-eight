@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-container">
         <div class="container-one">
             <div class="data">
-                <label for="day">DAY:</label>
+                <label for="day">DAY</label>
                 <input type="number" id="day" placeholder="DD">
             </div> 
 
             <div class="data">
-                <label for="month">MONTH:</label>
+                <label for="month">MONTH</label>
                 <input type="number" id="month" placeholder="MM">
             </div>
               
             <div class="data">
-                <label for="year">YEAR:</label>
+                <label for="year">YEAR</label>
                 <input type="number" id="year" placeholder="YYYY">
             </div>
               
@@ -30,9 +31,9 @@
             <button onclick="calculateAge()"><img src="icon-arrow.svg" alt=""></button>             
         </div>
         <div class="container-three">
-            <h1><span id="years">- -</span><strong>years:</strong> </h1>
-            <h1> <span id="months">- -</span><strong>months:</strong></h1>
-            <h1> <span id="days">- -</span><strong>days:</strong></h1>     
+            <h1 class="answer"><span id="years">- -</span><strong>years:</strong> </h1>
+            <h1 class="answer-2"> <span id="months">- -</span><strong>months:</strong></h1>
+            <h1 class="answer-3"> <span id="days">- -</span><strong>days:</strong></h1>     
         </div>
     </div>
     <script src="script.js"></script>
