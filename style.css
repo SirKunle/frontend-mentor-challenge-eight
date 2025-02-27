@@ -75,3 +75,45 @@ button{
 .answer-3{
     margin-right: 410px;
 }
+@media screen and (max-width: 745px){
+    .container-three{
+        font-size: 19px; 
+    }
+    .answer{
+        margin-right: 270px;
+    }
+    .answer-2{
+        margin-right: 230px;
+    }
+    .answer-3{
+        margin-right: 290px;
+    }
+    .container-one{
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;   
+    }
+    
+    input{
+        width: 100px;
+        height: 40px;
+        border: 2px solid hsl(0, 0%, 94%);
+        border-radius: 5px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    label{
+        margin-right: 90px;
+        padding: 0px 0px 5px;
+        color: hsl(0, 1%, 44%);
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 580px){
+    .answer-3{
+        margin-right: 280px;
+    }
+}
+@media screen and (max-width: 375px){
+
+}
