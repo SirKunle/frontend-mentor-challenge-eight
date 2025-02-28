@@ -114,6 +114,74 @@ button{
         margin-right: 280px;
     }
 }
-@media screen and (max-width: 375px){
-
+@media screen and (max-width: 575px){
+    .main-container{
+        height: 450px;
+        width: 260px;
+        padding: 50px 30px;
+        background-color: hsl(0, 0%, 100%);  
+        text-align: center;
+        border-radius: 20px;
+        border-bottom-right-radius: 100px;
+    }
+    body{
+        background-color: hsl(0, 0%, 94%);
+        display: flex;
+        justify-content: center;  
+        align-items: center;     
+        height: 100vh; 
+        font-family: 'Poppins', sans-serif;
+    }
+    .container-one{
+        gap: 10px;   
+    }
+    
+    input{
+        width: 70px;
+        height: 50px;
+        border: 2px solid hsl(0, 0%, 94%);
+        border-radius: 9px;
+        font-weight: 800;
+    }
+    label{
+        margin-right: 20px;
+        padding: 0px 0px 5px;
+        color: hsl(0, 1%, 44%);
+        font-weight: 700;
+    }
+    .container-two{
+        display: flex;
+        align-items: center; /* Centers items horizontally */
+        margin-top: 20px;
+    }
+    
+    button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #years, #months, #days{
+        color: hsl(259, 100%, 65%);
+        font-weight: 800;
+        font-style: italic;
+        margin-right: 5px;
+    }
+    .container-three{
+        font-weight: 800;
+        font-style: italic; 
+        position: relative;
+        top: -35px; 
+        font-size: 18px;
+        margin-top: 60px;
+    }
+    
+    .answer{
+        margin-right: 95px;
+    }
+    .answer-2{
+        margin-right: 58px;
+    }
+    .answer-3{
+        margin-right: 110px;
+    }
 }
